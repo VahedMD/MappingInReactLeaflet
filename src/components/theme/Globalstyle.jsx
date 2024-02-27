@@ -11,6 +11,14 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     font-family: "Poppins", Open-Sans, Helvetica, Sans-Serif;
   }
+
+  a {
+    text-decoration: none;
+    color: rgba(100,100,100);
+    &:hover {
+      color: rgba(0,0,0);
+    }
+  }
 `;
 
 export default GlobalStyle;

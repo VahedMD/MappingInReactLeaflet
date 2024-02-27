@@ -4,7 +4,10 @@ import styled from "styled-components";
 const Header = () => {
   return (
     <Wrapper>
+      <NavLink to="/">Home</NavLink>
       <NavLink to="/global_simple_map">Simple Map</NavLink>
+      <NavLink to="/my-location">My Location</NavLink>
+      <NavLink to="/layer-control">Layer Control</NavLink>
     </Wrapper>
   );
 };
